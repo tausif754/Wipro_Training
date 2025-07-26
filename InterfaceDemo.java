@@ -18,7 +18,7 @@ public class InterfaceDemo {
         // System.out.println("Interface Demo Running");
         InterfaceExample obj = new InterfaceDemoImpl();// Creating an instance of the implementing class
         InterfaceDemoImpl imp = new InterfaceDemoImpl(); // Creating an instance of the implementing class
-        // obj.display();
+        obj.display();
         imp.display(); // Calling the display method
         imp.config(); // Calling the config method
     }
